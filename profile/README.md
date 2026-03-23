@@ -2,7 +2,9 @@
 
 Overview of repositories in the **ResQEnergy** organization and their roles in preprocessing data for Energy System (ES) simulations.
 
-<img src="../assets/logo.jpg" title="ResQEnergy Logo" width="512px" height="340px" style="display: block; margin: auto;"/>
+<p align="center">
+  <img src="../assets/logo.jpg" title="ResQEnergy Logo" width="512px" height="340px"/>
+</p>
 
 ## Table of Contents
 - [General Architecture](#general-architecture)
