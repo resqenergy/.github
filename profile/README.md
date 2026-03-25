@@ -76,3 +76,21 @@ The main workflow involves exporting result data from one repository into **S3 s
     - Generation of a plot showing the shares of supply in future district heating systems according to Langfristszenarien
     - A helping script to modify oemof-B3 weatherdata with Testreferenzjahre-ts
     - Calculation of the installed capacity of solarthermal (st) plants in Adlershof without Wohnen am Campus for results on installed capacities in Adlershof
+
+### [resq_process_building_data](https://github.com/resqenergy/resq_process_building_data)
+**Role:** Processing and plotting WISTA building measured data
+
+- **Input from:** [`Sharepoint`](https://rlinstitutde.sharepoint.com/:t:/s/427_ResQEnergy-427_internal_Team/IQCWGE91mzcnQ7vYcgU9jJwKAdEYXipkbDy69AriNw59GUc?e=OvKojw)
+- **Output for:** [`Sharepoint`](https://rlinstitutde.sharepoint.com/:f:/s/427_ResQEnergy-427_internal_Team/IgDdEEYyGCNuSYjV5Mqs5Bu8ASBqo6O7sslatYf77hC5JQY?e=LEEEqu)
+- **Description:** 
+    - Time series of the building
+    - Capacity from power
+    - Plots
+
+### [resq_btb_oemof](https://github.com/resqenergy/resq_btb_oemof)
+**Role:** Small oemof example for a simple BTB district heating networt according to the Dekarbonisierungsfahrplan. (Under construction)
+
+- **Input from:** [`datapackage`](https://github.com/resqenergy/resq_btb_oemof/tree/main/raw_data)
+- **Output for:** [`oemof results`](https://github.com/resqenergy/resq_btb_oemof/tree/main/results)
+- **Description:** 
+    - Mini oemof example of the district heating only
