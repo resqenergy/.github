@@ -55,3 +55,11 @@ The main workflow involves exporting result data from one repository into **S3 s
 - **Description:** 
     - Calculates total area and units per Cluster and per bus for status quo and projections for 2035 and 2050
     - Generates energy demands and their time series
+
+### [resq_process_company_data](https://github.com/resqenergy/resq_process_company_data)
+**Role:** Calculation of area and units per Cluster of non-residential buildings via processing company data and Gebäudegrunddatensatz
+
+- **Input from:** [`Sharepoint`](https://rlinstitutde.sharepoint.com/:f:/s/427_ResQEnergy-427_internal_Team/IgBrRnJIDRASTrrFOauHZw_pATnH9rJFoh6hthIq46IUDBI?e=mQt8Cl)
+- **Output for:** [`Sharepoint`](https://rlinstitutde.sharepoint.com/:f:/s/427_ResQEnergy-427_internal_Team/IgCTT3B0WA2pRIoc4zZY0s-SASHBtR4BINgFFCASqVY0xcE?e=Rf9VdT)
+- **Description:** 
+    - Calculates total area and units per Cluster and per bus for status quo of non-residential buildings
