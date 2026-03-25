@@ -46,3 +46,12 @@ The main workflow involves exporting result data from one repository into **S3 s
     - Can hold multiple `oemof.tabular` datapackages (scenarios).
     - Runs simulations and stores result data in an external database.
     - Generates visualizations for **Apache Superset**.
+ 
+### [resq_demands](https://github.com/resqenergy/resq_demands)
+**Role:** Calculation of demands
+
+- **Input from:** [`Sharepoint`](https://rlinstitutde.sharepoint.com/:f:/s/427_ResQEnergy-427_internal_Team/IgBvQkHRbzj5QKYOSYSKpBqHASKIRa8Dw6rd0rz9ZfQEkVU?e=p1cire) and [`npro`](#npro)
+- **Output for:** [`Sharepoint`](https://rlinstitutde.sharepoint.com/:f:/s/427_ResQEnergy-427_internal_Team/IgDkGXbWJShKSbR1Qf9c9xKmAd02Hn3EjOBNuNNcSgRISIY?e=aUOa5x)
+- **Description:** 
+    - Calculates total area and units per Cluster and per bus for status quo and projections for 2035 and 2050
+    - Generates energy demands and their time series
