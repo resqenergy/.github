@@ -63,3 +63,16 @@ The main workflow involves exporting result data from one repository into **S3 s
 - **Output for:** [`Sharepoint`](https://rlinstitutde.sharepoint.com/:f:/s/427_ResQEnergy-427_internal_Team/IgCTT3B0WA2pRIoc4zZY0s-SASHBtR4BINgFFCASqVY0xcE?e=Rf9VdT)
 - **Description:** 
     - Calculates total area and units per Cluster and per bus for status quo of non-residential buildings
+ 
+### [resq_precalc](https://github.com/resqenergy/resq_precalc)
+**Role:** Various precalculations in the project
+
+- **Input from:** [`Sharepoint`](https://rlinstitutde.sharepoint.com/:f:/s/427_ResQEnergy-427_internal_Team/IgBmfAcZ58xLTIGwckVM2mVvAa0gHGJZmahbooWqKqTfpRI?e=d32ruc)
+- **Description:** 
+    - COP of the industrial heat waste (under construction)
+    - Calculation of the mean temperature of the BTB-dh network
+    - Calculation of the total heat quantity of the Teltow Canal at the measuring point
+    - Calculation of a mean electricity price from a time series
+    - Generation of a plot showing the shares of supply in future district heating systems according to Langfristszenarien
+    - A helping script to modify oemof-B3 weatherdata with Testreferenzjahre-ts
+    - Calculation of the installed capacity of solarthermal (st) plants in Adlershof without Wohnen am Campus for results on installed capacities in Adlershof
